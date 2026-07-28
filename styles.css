@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e726b, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    max-width: 450px;
+    width: 100%;
+    padding: 35px 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #1e726b;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.description {
+    text-align: center;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+    .form-group{
+    margin-bottom: 18px;
+}
+.form-group label{
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+.form-group input[type="number"]:focus {
+    border-color: #2a5298;
+    outline: none;
+}
+.gender-group {
+    display: flex;
+    gap: 25px;
+    padding-top: 5px;
+}
+.gender-group label {
+    cursor: pointer;
+    color: #333;
+    font-weight: normal;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: sandybrown;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: backgound-color 0.2s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: aquamarine;
+}
+.result-box{
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgb(29, 35, 35);
+    border: 1px solid;
+    color: #f5f2f2;
+    text-align: center;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+.hidden {
+    display: none;
+}

@@ -1,0 +1,42 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="card">
+        <h1>Akan Name Generator</h1>
+        <p class="description">
+             In Ghanaian Akan culture, every child is given a name based on their birth day and gender.Enter your birth details to find your Akan name.
+            </p>
+             <form id="AkanForm">
+                <div class="form-group">
+                    <label for="day">Day of Birth:</label>
+                    <input type="number" id="day" placeholder="e.g. 21" required>
+                </div>
+                <div class="form-group">
+                    <label for="month">Month of Birth ( 1- 12):</label>
+                    <input type="number" id="month" placeholder="e.g. 7" required>
+                </div>
+                <div class="form-group">
+                    <label for="year">Year of Birth( 4 digits ):</label>
+                    <input type="number" id="year" placeholder="e.g. 1990" required>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="gender-group">
+                        <label><input type="radio" name="gender" value="male">Male</label>
+                        <label><input type="radio" name="gender" value="female">Female</label>
+                    </div>
+                </div>
+                <button type="submit" id="generateBtn">Generate Akan Name</button>
+            </form>
+            <div id="result" class="result-box hidden"></div>
+        </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
