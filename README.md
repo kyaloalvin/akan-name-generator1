@@ -7,7 +7,5 @@ In Akan culture, children are frequently given their first name according to the
 * ** Repository:** [akan-name-generator1]
 ## Setup $ installation Instructions
 1. Clone this repository to your local machine:
-'''bash
-git clone[https://github.com/kyaloalvin/akan-name-generator1.git][def]
-
-[def]: https://github.com/kyaloalvin/akan-name-generator1.git
+## Link to live site
+** Link to Github 
