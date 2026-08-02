@@ -8,4 +8,6 @@ In Akan culture, children are frequently given their first name according to the
 ## Setup $ installation Instructions
 1. Clone this repository to your local machine:
 ## Link to live site
-** Link to Github 
+** Link to Github https://github.com/kyaloalvin/akan-name-generator1.git
+** Link to website https://kyaloalvin.github.io/akan-name-generator1
+
